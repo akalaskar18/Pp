@@ -1,0 +1,43 @@
+.Rimage{
+    width: 90%;
+    border:0 0 1rem black;
+    background-color: black;
+    padding: 5%;
+    
+
+}
+.no1{
+    background-color: black;
+    align-items: center;
+}
+.myresume{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.Downlode{
+    margin-left: 45%;
+    width: 10%;
+    padding: 5px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    border-radius: 10rem;
+    border: yellow;
+    box-shadow: 0 0 1rem yellow;
+}
+
+.Dimage{
+    height: 15px;
+    width: 18px;
+    margin-right: 3px;
+    padding: 0px;
+    cursor:pointer;
+}
+
+@media screen and (max-width:940px){
+    .Downlode{
+        width: 100px;
+    }   
+}

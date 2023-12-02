@@ -1,0 +1,132 @@
+.CM{
+    text-align: center;
+    font-weight: bolder;
+    padding: 3rem;
+    color: whitesmoke;
+}
+.D1{
+    background-color: rgb(20, 20, 20);
+}
+.con{
+    color: whitesmoke;
+    text-align: center;
+    font-size: medium;
+}
+
+.contactform{
+    background-color: transparent;
+    align-items: center;
+    padding: 10px   ;
+}
+
+.nam{
+    align-items: center;
+    width: 30%;
+    height: 2rem;
+    font-size: small;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+.email{
+    width: 30%;
+    height: 2rem;
+    font-size: small;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+.MSG{
+    width: 30%;
+    height: 4rem;
+    font-size: small;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+
+.subbutt{
+    width: 10%;
+    height: 2rem;
+    font-size: small;
+    margin-left: 45%;
+    margin-bottom: 10%;
+    cursor: pointer ;
+    background-color: rgb(239, 224, 59);
+    border-radius: 10px ;
+    border-color: white;
+    
+}
+
+.Icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+  
+.instagram{
+    margin-left: 39%;
+    padding: 10px;
+}
+
+.linkdin{
+    padding: 10px;
+}
+.git{
+    padding: 10px;
+}
+.twitter{
+    padding: 10px;
+}
+
+@media screen and (max-width:640px){
+    .instagram{
+        margin-left: 20%;
+        padding: 10px;
+    }
+
+
+    .nam{
+        align-items: center;
+        width: 80%;
+        height: 2rem;
+        font-size: small;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+    
+    .email{
+        width: 80%;
+        height: 2rem;
+        font-size: small;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+    
+    .MSG{
+        width: 80%;
+        height: 4rem;
+        font-size: small;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+    
+    
+    .subbutt{
+        width: 30%;
+        height: 2rem;
+        font-size: small;
+        margin-left: 35%;
+        margin-bottom: 10%;
+        cursor: pointer ;
+        background-color: green;
+        border-radius: 10px ;
+        border-color: white;
+        
+    }
+}
+.contact{
+    background-color: black;
+}

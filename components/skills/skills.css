@@ -1,0 +1,97 @@
+.About{
+    font-weight:bolder;
+    font-size:xx-large;
+    padding: 5rem;
+    color: white;
+    margin-bottom: 9px;
+    
+}
+.skills{
+    background-color:black
+
+}
+
+.div1{
+    background-color:black;
+    padding-bottom: 10%;
+}
+.fe{
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 2px;
+}
+.div2{
+    
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin-right: 50%;
+    margin-left: 6%;
+    padding: 3px;
+    border:2px lightblue;
+    border-radius: 20px;
+    box-shadow: 0 0 10px lightblue;
+    margin-top: 20px;
+    
+
+   
+}
+.fe3{
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 2rem;
+}
+.html{
+    display: inline-block;
+    border: 2px silver;
+    border-radius: 10px;
+    box-shadow: 0 0 10px silver;
+    background-color: black;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 10px;
+    
+}
+.javascript{
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid gold; /* Set your desired border color */
+    border-radius: 10px; /* Set your desired border radius */
+    box-shadow: 0 0 10px gold; /* Set your desired glow color and intensity */
+    background-color:  #1e1e1e; /* Set your desired box background color */
+    color: white; /* Set your desired text color */
+    font-size: 18px;
+    margin-left: 10px;
+}
+.div3{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin-right: 35%;
+    margin-left: 20%;
+    padding: 3px;
+    border:2px lightblue;
+    border-radius: 20px;
+    box-shadow: 0 0 10px lightblue;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:840px) {
+    .div2{
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    .div3{
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+.div4{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin-right: 30%;
+    margin-left: 10%;
+    padding: 3px;
+    border:2px lightblue;
+    border-radius: 20px;
+    box-shadow: 0 0 10px lightblue;
+    margin-top: 20px;
+}

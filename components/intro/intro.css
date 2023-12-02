@@ -1,0 +1,91 @@
+#intro{
+    height: calc(100vh - -4rem);
+    width: 100vm;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.image{
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    margin-right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 70vh;
+}
+
+.introcontent{
+height: 100vh;
+width: 100vw;
+padding:2rem ;
+font-weight: 700;
+display: flex;
+flex-direction: column;
+justify-content: right;
+
+}
+
+.hello{
+    font-size: 2rem;
+    margin-top: 6%;
+}
+.introtext{
+    font-size: 4rem;
+}
+.name{
+    font-size: 4rem;
+    color: rgb(113, 113, 23);
+}
+.intp{
+    margin-right: 50%;
+    
+}
+
+.hm{
+    padding: auto;
+    background-color:yellow;
+    color:black;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font: bolder;
+}
+
+@media screen and (max-width:840px) {
+    .image{
+        right: -10vw;
+        margin-top: 150px;
+        height: 150px;
+    }
+
+    .introcontent{
+        font-size: 10vw;
+    }
+
+    .hello{
+        font-size: 4.5vw;
+    }
+    .intp{
+        
+        font-size: medium;
+        margin-right: 50%;
+    }
+    .bagimg{
+        height: 300px;
+    }
+
+    .hm{
+        height: 50px;
+        width: 110px;
+        font-family:unset;
+        font-size: medium;
+    }
+}
